@@ -1,0 +1,24 @@
+---
+layout: littlelink
+title: ricardo's links
+id: links
+permalink: /linx
+description: social media links page for Ricardo Chavez
+---
+
+<!-- Your Image Here -->
+<img src="{{ site.baseurl }}/assets/avatar.png" class="avatar" srcset="{{ site.baseurl }}/assets/avatar_2x.png 2x" alt="">
+
+<!-- Title -->
+<h1 role="heading">Ricardo Chavez</h1>
+
+<!-- Short Bio -->
+<p>maker of many things, mostly software</p>
+
+<p>find me at <a href="https://www.ricardochavezt.com/">ricardochavezt.com</a> or elsewhere:</p>
+
+{% for link in site.data.links %}
+<a class="button button-{{link.name}}" href="{{link.url}}" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="assets/icons/{{link.name}}.svg" alt="{{link.name}} logo">{{link.text}}</a><br>
+{% endfor %}
+
+<p style="font-size: smaller;">Based on the awesome <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>

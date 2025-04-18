@@ -1,0 +1,34 @@
+- name: github
+  url: https://github.com/ricardochavezt
+  title: GitHub
+  text: for code
+  showInHome: true
+
+- name: instagram
+  url: https://www.instagram.com/ricardochavezt/
+  title: Instagram
+  text: for pics & drawings
+  showInHome: true
+
+- name: linkedin
+  url: https://www.linkedin.com/in/ricardo-chavez-b4092950/
+  title: LinkedIn
+  text: for job things
+  showInHome: true
+
+- name: spotify
+  url: https://open.spotify.com/user/ricardo.chavez.t?si=f1432e6c3b644181
+  title: Spotify
+  text: for sharing my musical taste
+
+- name: tumblr
+  url: http://ricardochavezt.tumblr.com/
+  title: Tumblr
+  text: for sharing everything else
+  showInHome: true
+
+- name: x
+  url: https://x.com/ricardochavezt/
+  title: <s>Twitter</s> X
+  text: for cat pics mostly
+  showInHome: true

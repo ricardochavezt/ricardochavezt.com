@@ -28,10 +28,9 @@ permalink: /
 <section class="sidebar-links">
     <h3>Elsewhere</h3>
     <ul>
-        <li><a href="https://www.instagram.com/ricardochavezt/">Instagram</a></li>
-        <li><a href="http://ricardochavezt.tumblr.com/">Tumblr</a></li>
-        <li><a href="https://x.com/ricardochavezt/"><s>Twitter</s> X</a></li>
-        <li><a href="https://www.linkedin.com/in/ricardo-chavez-b4092950/">LinkedIn</a></li>
-        <li><a href="https://github.com/ricardochavezt">GitHub</a></li>
+        {% assign home_links = site.data.links | where:"showInHome",true %}
+        {% for link in home_links %}
+        <li><a href="{{link.url}}">{{link.title}}</a></li>
+        {% endfor %}
     </ul>
 </section>
