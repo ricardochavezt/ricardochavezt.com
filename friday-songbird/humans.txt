@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Ricardo Chavez -- creator -- @ricardochavezt
+
+# THANKS
+
+    This is my Jam (https://www.thisismyjam.com/), for the inspiration
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    React, Gatsby
