@@ -108,6 +108,19 @@ nav {
   margin: 1em 0 3em;
 }
 
+nav#page-nav {
+  display: flex;
+  justify-content: space-between;
+
+  .link-group a {
+      margin-left: 0.5em;
+  
+      @media (min-width: 700px) {
+        margin-left: 1em;
+      }
+    }
+}
+
 main.home .main-content {
   grid-area: main;
 }
