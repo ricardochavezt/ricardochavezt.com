@@ -14,7 +14,7 @@ It was quite a nice experiment, and keeping it seasonal and with a defined sched
 
 - [Friday Songbird](/friday-songbird), a music blog in Spanish, now inactive, in which I shared a song each Friday (hence the name), with a little writeup about it, about the artist performing it, how did I discovered it and what I liked the best about it. In a way, it was a long-runnning love letter to music. Originally hosted in [ctrl-c.club](https://ctrl-c.club/), it was custom made using the Gatsby framework; you can check the technical details in <a class="internal-link" href="/projects-software">my list of software projects</a>.
 
+- [Capuccino Productions Inc.](https://capuccinoproductions.tumblr.com/), my old Tumblr, now officially finished, and which I used as the space to share all the interesting things I found online. Which is to say, it's sort of the precursor to the newsletters and the <a class="internal-link" href="/garden">digital garden</a>.
+
 - [La Biblioteca de Babel](/biblioteca-de-babel), and old blog of mine. Not the first blog I created, but the oldest surviving one, mainly because previous ones were deployed on platforms that later disappeared or I didn't take care of creating backups ☹️; this one, on the other hand, was deployed in Heroku, back when they offered free plans and only supported Ruby (those were good times TuT). Not much in the way of content, just a handful of posts, mostly about music.  
 (Oh, and also in Spanish.)
-
-- [Capuccino Productions Inc.](https://capuccinoproductions.tumblr.com/), my old Tumblr, now officially finished, and which I used as the space to share all the interesting things I found online. Which is to say, it's sort of the precursor to the newsletters and the <a class="internal-link" href="/garden">digital garden</a>.
