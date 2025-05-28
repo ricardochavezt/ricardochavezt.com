@@ -6,6 +6,8 @@ permalink: /professional-experience
 
 ## Professional (and academic) experience
 
+(_Last updated: May 28th 2025_)
+
 (I do have [a LinkedIn profile](https://www.linkedin.com/in/ricardo-chavez-b4092950/) if that's more to your liking)
 
 ### Undergraduate studies
@@ -46,4 +48,4 @@ After the first year, I was lucky enough to land a summer internship at [**Nokia
 
 ### First full-time position abroad
 
-A few months after graduating from my master's (months in which I tried my hand at the Finnish job market, without success), I was referred to a position in **Vorwerk IT Services Ibérica**, and after a few more months of paperwork and the move to Spain required by the position, I joined their ranks as a Software Engineer. For the time being my duties align with what is now called "full-stack development", which just means I can lend a hand both on front-end development tasks (which in this occasion include working with the [Stencil](https://stenciljs.com/) framework) and back-end development tasks (which for now include only working with [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)-style processes).
+A few months after graduating from my master's (months in which I tried my hand at the Finnish job market, without success), I was referred to a position in [**Vorwerk IT Services Ibérica**](https://www.linkedin.com/company/vorwerk-&-co--kg/), and after a few more months of paperwork and the move to Spain required by the position, I joined their ranks as a Software Engineer. For the time being my duties align with what is now called "full-stack development", which just means I can lend a hand both on front-end development tasks (which in this occasion include working with the [Stencil](https://stenciljs.com/) framework) and back-end development tasks (which for now include only working with [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)-style processes).
