@@ -193,6 +193,13 @@ main.home {
   }
 }
 
+.tip {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 0.5em;
+  pointer-events: auto;
+}
+
 #notes-entry-container {
   display: grid;
   grid-gap: 2em;
