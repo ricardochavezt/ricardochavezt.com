@@ -1,0 +1,47 @@
+---
+layout: default
+title: The Garden
+id: garden
+permalink: /garden
+---
+
+<h1>The Garden</h1>
+
+<div id="garden-layout">
+
+    <section id="garden-bookmarks">
+
+        <h2>Open Tabs</h2>
+
+        <iframe
+            src="https://magnetic-attraction-a6f.notion.site/ebd/18238332390681d5a33ed2b379442d38?v=18238332390681bc8e15000cdd9d9221"
+            width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="garden-stream">
+        <h2>Miscellaneous</h2>
+        <iframe
+            srcdoc="<link rel=&quot;stylesheet&quot; href=&quot;{{ site.baseurl }}/styles.css&quot;><script type=&quot;text/javascript&quot; src=&quot;https://ricardochavezt.tumblr.com/js&quot;></script>"
+            width="100%" height="100%" frameborder="0"></iframe>
+    </section>
+
+    <section id="garden-notes">
+
+        <h2>Notes</h2>
+
+        <div class="garden-notes-list">
+            {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+            {% for note in recent_notes limit: 5 %}
+            <div class="garden-notes-item">
+                <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">
+                    <p><strong>{{ note.title }}</strong></p>
+                    {{ note.excerpt }}
+                    <p class="metadata">Last updated: {{ note.last_modified_at | date: "%Y-%m-%d" }}</p>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+</div>

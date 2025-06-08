@@ -147,6 +147,52 @@ main.home {
   }
 }
 
+#garden-layout {
+  #garden-bookmarks {
+    grid-area: tabs;
+  }
+
+  #garden-stream {
+    grid-area: stream;
+  }
+
+  #garden-notes {
+    grid-area: notes;
+  }
+
+  display: grid;
+  column-gap: 1.5em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "tabs tabs"
+    "notes stream";
+}
+
+#garden-notes .garden-notes-list {
+  margin-top: 1.5em;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  a.internal-link {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid mix($color-subtext, white);
+      border-radius: $border-radius;
+      padding: 0 1em;
+  
+      &:hover {
+        background: $color-box-background;
+      }
+    }
+
+  .metadata {
+    color: $color-subtext;
+    font-size: smaller;
+    font-style: italic;
+  }
+}
+
 #notes-entry-container {
   display: grid;
   grid-gap: 2em;

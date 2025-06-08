@@ -20,6 +20,8 @@ embed_tweets: false
 permalink:           pretty
 relative_permalinks: false
 
+page_excerpts: true
+
 plugins:
   - jekyll-last-modified-at
 
