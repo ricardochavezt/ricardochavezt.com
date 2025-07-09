@@ -6,12 +6,15 @@ permalink: /now
 
 ## What I'm doing now
 
-_Last updated May 20th, 2025_
+_Last updated July 8th, 2025_
 
-I started working at the very start of April, which marks my return to the workforce after the two years (and change) of academic sabbatical to complete my master's degree, and I find myself surprisingly content to be back to a 9-to-5 routine, even though I still struggle with waking up early 😅. Maybe it's the stability of routine, or the change of pace from the academic / student life, or the fact that I have a salary again after a long while.
+The end of June marked my first three months in my current job, the first half of which were mostly spent learning and getting accustomed to my team's way of working; this second half we have already started taking on more tasks, starting with simple ones and slowly but steadily taking on more complex ones. Still relying on the more senior members of the team, hopefully less so as time passes.
 
-Moved to Spain because the job required so, currently living in the city of Vitoria, in the province of Álava. Visited Madrid a couple of times because of work, and also a couple of other cities (Barcelona, Zaragoza, Bilbao) in my search for a place to settle for the time being (since the job is, for all efects, fully remote, I am free to chose a city to live in, as long as it is in Spain). Still missing a bit the fine city of Helsinki and my friends there though, so I'll try and fit in a trip there, maybe for Midsummer.
+Had the opportunity to go on a couple of short trips: first to the fine city of Porto, Portugal, for the Primavera Sound music festival and to meet up with some friends I hadn't seen in a long time. Then, a couple of weeks later, I went back to Finland for a reunion of my master's students and alumni in the city of Turku, and also to meet up with my friends still living in Helsinki. I had a lovely time on both trips, but I must admit the weather was lovelier in Porto than in Helsinki and Turku 😅.  
+(After both trips made a dent in my budget 😅, there were suppossedly no more trips until further notice -- save for the trip to the Oasis reunion concert -- but my team at work is organizing an on-site workshop in Düsseldorf so... yeah, there will be trips this month 😄.)
 
-For this first month of work my hobbies have fallen a bit to the side, so I'm trying to get back on track, at least with drawing / sketching. Also trying to not completely abandon my side projects, which at the time include this website. Still faithfully following my favorite podcasts though 😄.
+Started looking for a place on my own, so by the month of August I might have already moved out of the fine city of Vitoria. Not a fun thing to do, but necessary.
 
-Looking forward to: the Oasis reunion concert in Manchester this July 🤩.
+I'm sad to report that my hobbies have fallen a bit to the side 🥲, what with the trips and the looking for a new place, so I'm trying to at least keep up with my reading / collecting habit to keep the <a href="/garden" class="internal-link">Garden</a> nurtured. Still faithfully following my favorite podcasts and content creators though, of which I should make a list, like the "blogroll" section of the blogs of old.
+
+Still looking forward to: the Oasis reunion concert in Manchester this month 🤩.
