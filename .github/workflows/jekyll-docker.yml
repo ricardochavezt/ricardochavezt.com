@@ -18,7 +18,7 @@ jobs:
         docker run -v ${{ github.workspace }}/_site:/site bretfisher/jekyll build
     - name: List files in the repository
       run: |
-        ls ${{ github.workspace }}/_site
+        ls ${{ github.workspace }}
     - name: Deploy with rsync
       uses: Burnett01/rsync-deployments@7.0.2
       with:
