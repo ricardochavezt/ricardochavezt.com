@@ -23,7 +23,7 @@ jobs:
       uses: Burnett01/rsync-deployments@7.0.2
       with:
         # The switches
-        switches: -chavzP
+        switches: -czrp
         # The local path
         path: _site/
         # The remote path
