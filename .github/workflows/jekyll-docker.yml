@@ -18,12 +18,12 @@ jobs:
         docker run -v ${{ github.workspace }}/_site:/site bretfisher/jekyll build
     - name: List files in the repository
       run: |
-        ls ${{ github.workspace }}
+        ls ${{ github.workspace }}/_site
     - name: Deploy with rsync
       uses: Burnett01/rsync-deployments@7.0.2
       with:
         # The switches
-        switches: -czrpv
+        switches: -czrpv --progress
         # The local path
         path: _site/
         # The remote path
