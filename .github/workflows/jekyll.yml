@@ -15,7 +15,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -35,3 +34,12 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}/_site
+      - name: Deploy with rsync
+        uses: Burnett01/rsync-deployments@7.0.2
+        with:
+          switches: -czrpv --progress
+          path: _site/
+          remote_path: /var/www/html 
+          remote_host: ricardochavezt.com
+          remote_user: www-deploy
+          remote_key: ${{ secrets.DEPLOY_KEY }}
