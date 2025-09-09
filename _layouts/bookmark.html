@@ -1,0 +1,27 @@
+---
+layout: garden
+---
+
+<article id="bookmark-entry-container">
+    <div class="metadata">
+        <div class="category-icon">
+            {% case page.category %}
+            {% when "link" %}
+            <img src="/assets/icons/icons8-bookmark-48.png" alt="bookmark" srcset="/assets/icons/icons8-bookmark-48.png, /assets/icons/icons8-bookmark-96.png 2x">
+            {% when "video" %}
+            <img src="/assets/icons/icons8-video-48.png" alt="bookmark" srcset="/assets/icons/icons8-video-48.png, /assets/icons/icons8-video-96.png 2x">
+            {% when "quote" %}
+            <img src="/assets/icons/icons8-quote-48.png" alt="bookmark" srcset="/assets/icons/icons8-quote-48.png, /assets/icons/icons8-quote-96.png 2x">
+            {% else %}
+            <img src="/assets/icons/icons8-link-48.png" alt="bookmark" srcset="/assets/icons/icons8-link-48.png, /assets/icons/icons8-link-96.png 2x">
+            {% endcase %}
+        </div>
+        <time datetime="{{ page.created_time | date_to_xmlschema }}">
+            Posted on {{ page.created_time | date: "%B %-d, %Y" }}
+        </time>
+    </div>
+    <div class="content">
+        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+        {{ content }}
+    </div>
+</article>

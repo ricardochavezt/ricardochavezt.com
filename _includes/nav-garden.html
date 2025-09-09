@@ -1,0 +1,17 @@
+<div>
+    <a class="internal-link" href="{{ site.baseurl }}/"><b>{{ site.title }}</b></a>
+    /
+    {% if page.id == "garden" %}
+    <h1>The Garden</h1> <span><a href="{{ site.baseurl }}/about-this-garden" class="internal-link">(what is this?)</a></span>
+    {% else %}
+    <h1><a href="{{ site.baseurl }}/garden" class="internal-link">The Garden</a>
+    {% if page.collection == "open_tabs" %}
+    <span style="font-weight: normal;">/</span> <a href="{{ site.baseurl }}/open_tabs" class="internal-link">Open Tabs</a>
+    {% endif %}
+    {% endif %}
+    </h1>
+</div>
+<div class="link-group">
+    <a href="/about" class="internal-link">About</a>
+    <a href="/now" class="internal-link">Now</a>
+</div>

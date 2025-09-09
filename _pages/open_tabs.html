@@ -1,0 +1,39 @@
+---
+layout: garden
+title: Open Tabs
+permalink: /open_tabs
+---
+
+<div id="open-tabs-layout">
+    <h1>Open Tabs</h1>
+
+    <section id="open-tabs-list">
+        {% assign tabs = site.open_tabs | sort: "created_time" | reverse %}
+        {% for tab in tabs %}
+        <div class="bookmark-list-item">
+            <div class="bookmark-list-item-icon">
+                {% case tab.category %}
+                {% when "link" %}
+                <img src="/assets/icons/icons8-bookmark-48.png" alt="bookmark" srcset="/assets/icons/icons8-bookmark-48.png, /assets/icons/icons8-bookmark-96.png 2x">
+                {% when "video" %}
+                <img src="/assets/icons/icons8-video-48.png" alt="video" srcset="/assets/icons/icons8-video-48.png, /assets/icons/icons8-video-96.png 2x">
+                {% when "quote" %}
+                <img src="/assets/icons/icons8-quote-48.png" alt="quote" srcset="/assets/icons/icons8-quote-48.png, /assets/icons/icons8-quote-96.png 2x">
+                {% else %}
+                <img src="/assets/icons/icons8-link-48.png" alt="link" srcset="/assets/icons/icons8-link-48.png, /assets/icons/icons8-link-96.png 2x">
+                {% endcase %}
+            </div>
+            <div class="bookmark-list-item-content">
+                <h2><a href="{{ tab.link }}">{{ tab.title }}</a></h2>
+                {{ tab.content }}
+                <p class="metadata">
+                    <time datetime="{{ tab.created_time | date_to_xmlschema }}">
+                        Posted on {{ tab.created_time | date: "%B %-d, %Y" }}
+                        | <a href="{{ tab.url }}" class="internal-link" >Permalink</a>
+                    </time>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+</div>
