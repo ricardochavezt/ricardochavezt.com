@@ -13,10 +13,6 @@ last_edited_by_object: user
 last_edited_by_id: 935f7bc2-d3ee-4e06-9953-410a80b65bfb
 ---
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/86f68d2e-6110-4d6b-a7e0-ec2ea34d91cd/95d7c8d8-165b-4870-b9ed-d7b49c0449bf/breakthrough-individual-newsletter-read.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U7SOQHAD%2F20250909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250909T214716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLXdlc3QtMiJHMEUCIF8LzJYoXMgxbRj8ze7v%2FWjQx6flOqZv2XhTMUmtqCljAiEAj5zU8DJtdMfXRzmFTurwAdUSwvOO1IvkfpVOYDbBwpsqiAQI3v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDOKBYpeH4XdlmQU6UircA%2FrwWVL0zh5S72OLKUivyufzTbwomamCFQkv3OHbrQLalIFP%2BGFcLdEh%2F%2BtpHf8QruRfwHE6y1KpzWkqvM4EM49VqBt0SiuFHi3BhCXA1%2BA4Uqn%2B5GtM%2Bm6eZEmMp99G6e13XfCxrRAW90xdjdBsHLV080ilrzlxawjPRLh70qR4Pj%2BM2AGgfw9NldUIBIL%2FPAYIcB7HCdhajzWFxqbql%2FZ9vP1nFIj%2FN4qXgFiph%2BjUFtQzF5vR1C8puXyTvdmfKxzsDPpvl%2Bi6na%2Bmg%2FmU5JAp%2BJXD016QDRwtS0I6gAK3IwsEM480eM3%2FL8aSImXkwADKHA49bQRKWBBGaTNNyHNJ31ptj734S9owN2twsvXMPhoDfMHoGbXE1zzyQRfdhl%2BE%2BFEyMEiJAs17xg01nejYuvxXs%2FgnazS7qY80S5XtfZOHWRq7qxziq%2FJaBOuUBpnvKlYpo%2F6vHa5cGfs%2FYJbgjw%2F4M4M8AE29%2F%2FdKK6YQ1R5k9CEBH30SEQnz%2BeVrN%2BJmtI4%2Byp0SpWPhLbUMRAFsKG8VM88Tu4YOHiEqtpp7PCpc8y8SC4Z8h8R2G7xSOjllSX7VH9Yma232i%2F6xNeh29NH8KCeD45L0CmvoSzVwmQDQ%2BXOjbKEU%2Bb40MLu0gsYGOqUB8GTpa%2FUl%2FEZyuzC%2F6d%2FumE1j02XdZ6dkZn7KAw6lo5QunLgigqHMIbl9H3nao%2Bc%2FeaLvEOsdzTSHvyzSVAIXUVX7c79pSAZH0dLKHqDA8UBrsVOUI2NxDA8KDn6RQUmcuoOCJzbCh8PWInwWtyQhXo5Sl0SHLMEz4tmskTsPPejGRBS5cjNDlaSb4fCpTkOlvQhun4ft83%2Br%2FxoSdwZHcrr3%2BIzT&X-Amz-Signature=9444a36b717230b4dc538852bde4dc348f7565ff4d993deb3023735d76745acd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-
-
-
 ### Want more actionable ideas every week?
 
 Join millions of readers and subscribe to [Your Next Breakthrough](https://markmanson.net/breakthrough) newsletter below.
