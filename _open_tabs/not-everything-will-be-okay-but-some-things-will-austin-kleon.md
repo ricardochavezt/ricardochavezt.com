@@ -1,0 +1,68 @@
+---
+link: https://austinkleon.com/2020/05/06/not-everything-will-be-okay/
+id: 19438332-3906-8102-9856-d64ed12429ed
+title: "Not everything will be okay (but some things will) - Austin Kleon"
+created_time: 2025-02-08T11:40:00.000Z
+cover: 
+icon: 
+last_edited_time: 2025-02-08T11:40:00.000Z
+archived: false
+created_by_object: user
+created_by_id: 935f7bc2-d3ee-4e06-9953-410a80b65bfb
+last_edited_by_object: user
+last_edited_by_id: 935f7bc2-d3ee-4e06-9953-410a80b65bfb
+---
+
+An image by [Ryan Thacker](http://mightcould.com/) at the end of [Maira Kalman’s Creative Mornings talk](https://www.youtube.com/watch?v=n3TEeUNXxpM)
+
+![](https://austinkleon.com/wp-content/uploads/2020/05/not-everything.jpg)
+
+
+
+*“There is a vast difference between positive thinking and existential courage.”*
+
+*—Barbara Ehrenreich, **[Bright-Sided](https://amzn.to/2SI0htI)*
+
+You know you’re in a bad spot when passing sidewalk chalk platitudes on your daily walk makes you murderous.
+
+For me, yesterday, the breaking point was a hand-painted sign that read “EVERYTHING WILL BE OKAY.”
+
+*What fucking planet are these people living on?*
+
+[https://platform.twitter.com/embed/Tweet.html?dnt=true&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=1257816570245591050&lang=en&origin=https%3A%2F%2Faustinkleon.com%2F2020%2F05%2F06%2Fnot-everything-will-be-okay%2F&sessionId=f77a5bef00a51bcb398133f16a8d197a68ca4d80&theme=light&widgetsVersion=2615f7e52b7e0%3A1702314776716&width=500px](https://platform.twitter.com/embed/Tweet.html?dnt=true&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=1257816570245591050&lang=en&origin=https%3A%2F%2Faustinkleon.com%2F2020%2F05%2F06%2Fnot-everything-will-be-okay%2F&sessionId=f77a5bef00a51bcb398133f16a8d197a68ca4d80&theme=light&widgetsVersion=2615f7e52b7e0%3A1702314776716&width=500px)
+
+> 
+
+My favorite cinematic misanthropes started conversing with each other.
+
+“Where do they teach you how to talk like this?” Melvin Udall asked.
+
+“What *absolute* twaddle,” Withnail agreed.
+
+[https://platform.twitter.com/embed/Tweet.html?dnt=true&embedId=twitter-widget-1&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=1257810687205822469&lang=en&origin=https%3A%2F%2Faustinkleon.com%2F2020%2F05%2F06%2Fnot-everything-will-be-okay%2F&sessionId=f77a5bef00a51bcb398133f16a8d197a68ca4d80&theme=light&widgetsVersion=2615f7e52b7e0%3A1702314776716&width=500px](https://platform.twitter.com/embed/Tweet.html?dnt=true&embedId=twitter-widget-1&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=1257810687205822469&lang=en&origin=https%3A%2F%2Faustinkleon.com%2F2020%2F05%2F06%2Fnot-everything-will-be-okay%2F&sessionId=f77a5bef00a51bcb398133f16a8d197a68ca4d80&theme=light&widgetsVersion=2615f7e52b7e0%3A1702314776716&width=500px)
+
+> 
+
+I was reminded of the story of G.K. Chesterton’s book, *[Platitudes Undone](https://books.google.com/books?id=r8trG_FywFAC&printsec=frontcover#v=onepage&q&f=false)**:*
+
+> In 1911, author Holbrook Jackson published a small book of aphorisms under the (mildly pretentious) title Platitudes in the Making: Precepts and Advices for Gentlefolk and gave a copy to his friend G.K. Chesterton. Chesterton, it seems, sat down with the book – and a green pencil – and wrote a response to each saying in the book. Presumably he then set the book down, and somehow, someway, it turned up in a San Francisco book shop in 1955, where it was purchased by a certain Dr. Alfred Kessler, an admirer of Chesterton. Every book collector dreams of such a find. Rather than keep the book to himself, however, Dr. Kessler and Ignatius Press have produced a facsimile edition. Remove the dust jacket, and you have a reproduction, in every particular, of that 1911 volume, together with all of Chesterton’s remarks. It’s a remarkable project, and a real treat for readers of Chesterton.
+
+![](https://austinkleon.com/wp-content/uploads/2020/05/tumblr_lb9pgaIzb41qz6f4bo1_500.jpg)
+
+
+
+People are dying. Our leaders are corrupt. Things are *not* good.
+
+But there’s still sunshine and birds and [Gene Kelly dancing](https://www.youtube.com/watch?v=w40ushYAaYA)*.*
+
+If we are going to paint the neighborhood with slogans, let’s at least honor each other’s grief and intelligence.
+
+everything will be okay.
+
+NOT everything will be okay BUT SOME THINGS WILL.
+
+![](https://austinkleon.com/wp-content/uploads/2020/05/not-everything-maira.jpg)
+
+
+
+

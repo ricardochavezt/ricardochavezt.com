@@ -24,6 +24,7 @@ page_excerpts: true
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-fetch-notion
 
 sass:
   sass_dir:          _sass
@@ -35,6 +36,11 @@ collections:
     permalink: /:slug
   open_tabs:
     output: true
+
+notion:
+  databases:
+    - id: 18238332390681d5a33ed2b379442d38
+      collection: open_tabs
 
 defaults:
   - scope:
