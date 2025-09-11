@@ -155,6 +155,10 @@ main.home {
 
 nav.garden-nav {
   margin: 1em 0;
+
+  .link-group {
+    text-align: right;
+  }
 }
 
 #garden-layout {
@@ -217,10 +221,18 @@ nav.garden-nav {
 
   display: grid;
   column-gap: 1.5em;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "tabs tabs"
-    "notes stream";
+  "tabs"
+  "notes"
+  "stream";
+
+  @media (min-width: 700px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "tabs tabs"
+      "notes stream";
+  }
 }
 
 .bookmark-list-item {
