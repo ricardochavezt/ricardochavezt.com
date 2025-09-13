@@ -348,6 +348,10 @@ code {
       padding: 1em 1.5em;
       font-size: 1em;
       font-style: italic;
+
+      em {
+        font-style: normal;
+      }
     }
 
     .metadata {
@@ -387,6 +391,10 @@ code {
       padding: 1em 1.5em;
       font-size: 1em;
       font-style: italic;
+
+      em {
+        font-style: normal;
+      }
     }
   }
 
