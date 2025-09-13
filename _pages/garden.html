@@ -27,7 +27,7 @@ permalink: /garden
                     <img src="/assets/icons/icons8-link-48.png" alt="link" srcset="/assets/icons/icons8-link-48.png, /assets/icons/icons8-link-96.png 2x">
                     {% endcase %}
                 </div>
-                <div class="bookmark-list-item-content">
+                <div class="bookmark-list-item-content {{bookmark.category}}">
                     {% if bookmark.category == "quote" %}
                     {{ bookmark.excerpt }}
                     <cite>&mdash; <a href="{{ bookmark.link }}">{{ bookmark.title }}</a></cite>

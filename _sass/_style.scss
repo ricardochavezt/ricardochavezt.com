@@ -171,7 +171,7 @@ nav.garden-nav {
       gap: 20px;
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 
-      .bookmark-list-item-content {
+      .bookmark-list-item-content.quote {
         blockquote {
           background-color: transparent;
           font-size: 1.25em;
