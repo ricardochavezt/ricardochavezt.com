@@ -4,7 +4,7 @@ link: "https://www.prospectmagazine.co.uk/essays/57826/divine-comedy?utm_source=
 created_time: 2025-11-09T19:05:18+01:00
 category: "link"
 ---
-Writer [Julian Gough](https://www.juliangough.com/) on why modern (western) literary fiction is heavily leaning towards the tragic, in opposition to the comic.
+Writer [Julian Gough](https://www.juliangough.com/) on why modern (western) literary fiction is heavily leaning towards the tragic, in opposition to the comic. (Via [Austin Kleon](https://austinkleon.substack.com/p/a-day-too-long))
 
 A few interesting points:
 - The Greeks believed comedy to be superior to tragedy: tragedy was the merely human view of life (we sicken, we die), while comedy tried to give us the relaxed, amusing perspective on our flawed selves afforded by the god's view of life, from on high. ("We became as gods, laughing at our own follies.")
