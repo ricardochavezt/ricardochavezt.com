@@ -10,4 +10,5 @@ gem "webrick", "~> 1.9"
 gem "nokogiri"
 group :jekyll_plugins do
     gem 'jekyll-fetch-notion'
+    gem 'jekyll-compose'
 end

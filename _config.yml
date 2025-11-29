@@ -42,6 +42,9 @@ notion:
     - id: 18238332390681d5a33ed2b379442d38
       collection: open_tabs
 
+jekyll_compose:
+  auto_open: true
+
 defaults:
   - scope:
       path: "**/*"
