@@ -21,7 +21,13 @@ layout: garden
         </time>
     </div>
     <div class="content">
-        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+        <h1>
+            {% if page.link_title %}
+            {{ page.title }} (via <a href="{{ page.link }}">{{ page.link_title }}</a>)
+            {% else %}
+            <a href="{{ page.link }}">{{ page.title }}</a>
+            {% endif %}
+        </h1>
         {{ content }}
     </div>
 </article>

@@ -30,7 +30,13 @@ permalink: /garden
                 <div class="bookmark-list-item-content {{bookmark.category}}">
                     {% if bookmark.category == "quote" %}
                     {{ bookmark.excerpt }}
-                    <cite>&mdash; <a href="{{ bookmark.link }}">{{ bookmark.title }}</a></cite>
+                    <cite>&mdash; 
+                        {% if bookmark.link_title %}
+                        {{ bookmark.title }} (via <a href="{{ bookmark.link }}">{{ bookmark.link_title }}</a>)
+                        {% else %}
+                        <a href="{{ bookmark.link }}">{{ bookmark.title }}</a>
+                        {% endif %}
+                    </cite>
                     {% else %}
                     <h3><a href="{{ bookmark.link }}">{{ bookmark.title }}</a></h3>
                     {{ bookmark.excerpt }}
