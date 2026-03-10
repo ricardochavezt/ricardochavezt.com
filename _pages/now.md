@@ -6,18 +6,20 @@ permalink: /now
 
 ## What I'm doing now
 
-_Last updated September 16th, 2025_
+_Last updated March 10, 2025_
 
-📖 Reading: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/), by Gabrielle Zevin
+📖 Read: [The Midnight Library](https://www.matthaig.com/books/midnight-library/), by Matt Haig  
+  (Still) Reading: [Tomorrow and Tomorrow and Tomorrow](https://gabriellezevin.com/tomorrowx3/), by Gabrielle Zevin
 
-After an unreleting heat wave, the days are getting cooler and a bit shorter, and I find myself more comfortable in the fine city of Zaragoza, finding more nice spots and getting used to where things are. It helps that there seems to be no shortage of interesting events: I attended this year's edition of the [Birragoza](https://cervezasartesanas.com/birragoza-2025/) Craft Beer Festival at the end of August, and this last weekend I checked out some of the artworks from [Festival Asalto](https://www.festivalasalto.com/)
+Last time I updated this page, the days were getting cooler and a bit shorter; now the opposite is happening, which means I have survived my first winter in Spain, thanks mostly to loads of coffee and other hot drinks 😄. Also very important to this was taking a vacation and spending the holidays with my family in Lima, Perú, which meant lots of relaxation and bigger lots of delicious food, as well as meeting my friends over there.
 
-Work continues to be manageable, and has now demanded that I use the "full" part of full-stack development, since I've been pivoting between backend and frontend tasks, the latter being my focus of these last couple of weeks.
+Work continues to be manageable, and fortunately I have received good feedback on a recent performance review (b'-')b. The usual good points (my experience and techical knowledge) and the usual points for improvement (my communication skills could use a little adjustment). We are approaching an important deadline, which means the usual chaos associated with it, but I think we're mostly on top of it so it won't turn unmanageable.
 
-No trips since last time, and none planned for the near future, save for a work trip to Düsseldorf that has been planned since I started with the company. But that just means I have more money to spend on decorating my flat :D.
+Since last time, I've made two trips to Germany for work-related events, for which the German lessons I'm taking (offered by my company at no cost) have proven to be useful, if only to order coffee or ask "do you speak English?" 😄.  
+(_Sprechen Sie Englisch?_, if you're wondering 😉)
 
-Since things have settled down after the move, I've picked up a couple of hobbies again, such as baking and reading, the latter thanks to a random find in a random visit to a bookstore :D. Hoping to also pick up drawing / sketching: the characters from the insanely popular _Hollow Knight: Silksong_ look super nice to draw.
+In the hobby department, I'm happy to share that I have not only continued reading and baking, but I have also recently picked up drawing again, even if it's only 5 minute doodles while my tea steeps; everything counts if it's to keep up the practice 💪. And as I said before, maintaining this site also counts as a hobby: besides growing my collection of <a href="/open_tabs" class="internal-link">Open Tabs</a>, I also made a list of my favorite things from 2025 <a href="/my-favorite-things-from-2025" class="internal-link">here</a>, and took part in the [IndieWeb Blog Carnival of February 2026](https://zacharykai.net/notes/icfeb26) with a post that gave me the reason to finally gather my thoughts around the recent wave of developments in generative AI, from two seemingly conflicting points of view; I gave it the title <a href="/ai-the-software-engineer-vs-the-artist" class="internal-link">AI - the software engineer vs. the artist</a>.
 
-And let's not forget, improving this website also counts as a hobby ;), a hobby for which I have found support by attending a couple of meetups of the [Homebrew Website Club](https://indieweb.org/Homebrew_Website_Club), where I got a chance to show off this fine website and got some interesting ideas. Glad to have a chance to hang out with fellow bloggers and personal website enthusiasts.
+My quest to find some local friends has started to give its first results: I signed up for this meetup of people that get together to practice either English or Spanish, and it has turned out to be a nice way of socializing and meeting both locals and people from abroad that, as myself, find themselves in the fine city of Zaragoza.
 
-Pending quest: find some local friends (for which I would have to get over the ol' social anxiety 😅)
+And, speaking of the fine city of Zaragoza, now that it has been more than 6 months since I moved here, it has proven to be a nice place to live. Its weather can be a little rough, both in summer and in winter, and in occasion you have to be careful not to get blown away by the _cierzo_, but it has its charms, and no shortage of cultural events to enjoy.
