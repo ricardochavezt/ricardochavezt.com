@@ -58,6 +58,16 @@ Cartoonist [Jason Chatfield](https://www.newyorkcartoons.com/) has a post on his
 	- example staring right at my face 😆: why people still take up running or cycling when we have cars and public transportation? because the point is not getting from A to B, is exercising so you stay healthy
 - As the awesome webcomic [Dresden Codak](https://dresdencodak.com/) once put it [here](https://dresdencodak.com/2020/08/31/dark-science-100-the-dark-scientific-method/): "You're not paying for 10 seconds, you're paying for 10 years of drawings that allowed for this drawing"
 
+Designer and educator Liz Danzico makes a very interesting point in a post in her blog [Bobulate](https://bobulate.com/) titled [Prelude to a fugue](https://bobulate.com/2026/03/prelude-to-a-fugue/): the derivative nature of these tools is just the initial stage in their evolution. She takes as an example the first electronic music synthesizers:
+
+> The revolution was not that music machines _could_ sound like a harpsichord. The revolution was that they didn’t _have_ to.
+> 
+> Generative tools for design leave us with a similar question: _when we can make anything, what is worth making?_ The mistake would be to repeat the harpsichord replicator error at scale: to use a tool capable of anything primarily to replicate what already exists, (...). This is not a failure of imagination so much as a necessary stage of grief: mourning the loss of the old constraint, which, it turns out, we confuse with craft itself.
+
+- We seem to agree that these are only tools; where our opinions seem to diverge is in the capabilities of said tools. In this camp, I find myself agreeing more with what Austin Kleon argues (see the second of his cited blog posts above): since these tools produce output based on their training data, I don't think they can produce the innovative results that were produced with the music synthesizers once we realized we did not have to imitate already existing sounds. She argues that the "questions about _what to make and why_ have just moved upstream"; I think the _limitations_ might also have moved upstream.
+	- or maybe the _current iteration_ of these tools possess these limitations, and a next iteration won't be thus limited: [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) models can be configured to favor exploration of new possibilities over exploitation of paths known to be working -- maybe that's the way to go?
+- Danzico is also currently (March 2026) VP of Design at Microsoft AI, so that might be informing her point of view.
+
 (-- FIN -- thanks for reading this far 😃)
 
 [^1]: Or so the Internet tells me 😁
