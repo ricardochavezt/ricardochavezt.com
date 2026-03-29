@@ -75,7 +75,7 @@ permalink: /garden
                 <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">
                     <h3>{{ note.title }}</h3>
                     {{ note.excerpt }}
-                    <p class="metadata">Last updated: {{ note.last_modified_at | date: "%Y-%m-%d" }}</p>
+                    <p class="metadata">Last updated: {{ note.last_modified_at_timestamp | date: "%Y-%m-%d" }}</p>
                 </a>
             </div>
             {% endfor %}

@@ -23,7 +23,6 @@ relative_permalinks: false
 page_excerpts: true
 
 plugins:
-  - jekyll-last-modified-at
   - jekyll-fetch-notion
 
 sass:
