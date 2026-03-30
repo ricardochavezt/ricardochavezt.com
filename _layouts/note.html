@@ -2,17 +2,22 @@
 layout: garden
 ---
 
-<article>
+<article class="h-entry">
   <div>
-    <h1>{{ page.title }}</h1>
-    <time datetime="{{ page.last_modified_at_timestamp | date_to_xmlschema }}">{% if page.type != 'pages' %}
-      Last updated on {{ page.last_modified_at_timestamp | date: "%B %-d, %Y" }}
-      {% endif %}
-    </time>
+    <h1 class="p-name">{{ page.title }}</h1>
+    <div id="notes-metadata-container">
+      <time datetime="{{ page.last_modified_at_timestamp | date_to_xmlschema }}" class="dt-updated">{% if page.type != 'pages' %}
+        Last updated on {{ page.last_modified_at_timestamp | date: "%B %-d, %Y" }} |
+        {% endif %}
+      </time>
+      <a href="{{ site.baseurl }}{{ page.url }}" class="u-url">Permalink</a>
+      <a href="/" class="p-author h-card" rel="author">{{ site.author }}</a>
+    </div>
   </div>
 
   <div id="notes-entry-container">
-    <content>
+    <div class="p-summary">{{ page.excerpt }}</div>
+    <content class="e-content">
       {{ content }}
     </content>
 

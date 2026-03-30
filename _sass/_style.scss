@@ -23,12 +23,6 @@ body {
   }
 }
 
-time {
-  display: block;
-  color: $color-subtext;
-  margin: 0.5em 0 1em;
-}
-
 footer {
   margin: 2em 0;
   font-size: 0.8em;
@@ -294,6 +288,16 @@ nav.garden-nav {
   pointer-events: auto;
 }
 
+#notes-metadata-container {
+  display: block;
+  color: $color-subtext;
+  margin: 0.5em 0 1em;
+
+  .p-author {
+    display: none;
+  }
+}
+
 #notes-entry-container {
   display: grid;
   grid-gap: 2em;
@@ -304,6 +308,10 @@ nav.garden-nav {
   @media (min-width: 700px) {
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "content side";
+  }
+
+  .p-summary {
+    display: none;
   }
 
   content a.internal-link {
