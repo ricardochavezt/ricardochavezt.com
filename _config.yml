@@ -38,6 +38,7 @@ collections:
     permalink: /:slug
   open_tabs:
     output: true
+    permalink: /open_tabs/:slug
 
 notion:
   databases:
