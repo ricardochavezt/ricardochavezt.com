@@ -23,9 +23,9 @@ Done:
 	- comes for free with the template for the notes on the Garden, might implement something else for external links
 
 To do next:
-- Add an RSS feed so people can subscribe to your blog.
 - Add [Webmention](https://indieweb.org/Webmention) support to your personal website so you can receive notifications when people whose sites support Webmention (like this one!) link to or write a post in response to a blog post on your website.
-	- testing it right now via [Webmention Rocks!](https://webmention.rocks/test/4)
+	- work in progress, as of the date of last update I can send Webmentions (and they should show up nicely in the receiving site because I have a very minimal implementation of [the h-entry microformat](https://indieweb.org/h-entry)) but can't receive them yet
+- Add an RSS feed so people can subscribe to your blog.
 - Add [rel=me links](https://microformats.org/wiki/rel-me) to your other profiles on the web. Mastodon shows your website as verified with a green checkmark if your site has a rel=me link to your Mastodon profile.
 - Make a robots.txt file that limits how search engines and AI crawlers can ingest your site.
 - Make a [blogroll](https://indieweb.org/blogroll) that links to personal websites you like.
