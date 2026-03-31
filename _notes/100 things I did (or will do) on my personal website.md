@@ -38,7 +38,7 @@ To do next:
 - Create an "on this day" feature that links to blog posts you published on a given day in the past.
 - Add a skip link to make it easier for screen reader users to navigate your website.
 - Make a search feature for your website.
-- Add an [asterism](https://en.wikipedia.org/wiki/Asterism_\(typography\)) or [fleuron](https://en.wikipedia.org/wiki/Fleuron_\(typography\)) to the end of your blog posts.
+- Add an [asterism](https://en.wikipedia.org/wiki/Asterism_(typography)) or [fleuron](https://en.wikipedia.org/wiki/Fleuron_(typography)) to the end of your blog posts.
 - Use the [lite-youtube](https://www.zachleat.com/web/youtube-embeds/) web component to improve page loading speeds when you have embedded a YouTube video on the page.
 - Try a new colour scheme on your website.
 - Draw a picture and share it on your website.
