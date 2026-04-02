@@ -27,6 +27,7 @@ page_excerpts: true
 
 plugins:
   - jekyll-fetch-notion
+  - jekyll-cache-bust
 
 sass:
   sass_dir:          _sass
