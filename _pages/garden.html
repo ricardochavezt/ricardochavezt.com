@@ -14,9 +14,16 @@ permalink: /garden
         <div class="bookmark-list">
             {% assign recent_tabs = site.open_tabs | sort: "created_time" | reverse %}
             {% for bookmark in recent_tabs limit: 5 %}
+                {% if bookmark.bookmark_of %}
+                {% assign link = bookmark.bookmark_of %}
+                {% assign category = "link" %}
+                {% else %}
+                {% assign link = bookmark.link %}
+                {% assign category = bookmark.category %}
+                {% endif %}
             <div class="bookmark-list-item">
                 <div class="bookmark-list-item-icon">
-                    {% case bookmark.category %}
+                    {% case category %}
                     {% when "link" %}
                     <img src="/assets/icons/icons8-bookmark-48.png" alt="bookmark" srcset="/assets/icons/icons8-bookmark-48.png, /assets/icons/icons8-bookmark-96.png 2x">
                     {% when "video" %}
@@ -28,17 +35,17 @@ permalink: /garden
                     {% endcase %}
                 </div>
                 <div class="bookmark-list-item-content {{bookmark.category}}">
-                    {% if bookmark.category == "quote" %}
+                    {% if category == "quote" %}
                     {{ bookmark.excerpt }}
                     <cite>&mdash; 
                         {% if bookmark.link_title %}
-                        {{ bookmark.title }} (via <a href="{{ bookmark.link }}">{{ bookmark.link_title }}</a>)
+                        {{ bookmark.title }} (via <a href="{{ link }}">{{ bookmark.link_title }}</a>)
                         {% else %}
-                        <a href="{{ bookmark.link }}">{{ bookmark.title }}</a>
+                        <a href="{{ link }}">{{ bookmark.title }}</a>
                         {% endif %}
                     </cite>
                     {% else %}
-                    <h3><a href="{{ bookmark.link }}">{{ bookmark.title }}</a></h3>
+                    <h3><a href="{{ link }}">{{ bookmark.title }}</a></h3>
                     {{ bookmark.excerpt }}
                     {% endif %}
                     <p><a href="{{ site.baseurl }}{{ bookmark.url }}" class="internal-link" >Read more...</a></p>

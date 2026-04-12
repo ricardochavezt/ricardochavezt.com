@@ -2,10 +2,17 @@
 layout: garden
 ---
 
+{% if page.bookmark_of %}
+{% assign link = page.bookmark_of %}
+{% assign category = "link" %}
+{% else %}
+{% assign link = page.link %}
+{% assign category = page.category %}
+{% endif %}
 <article id="bookmark-entry-container">
     <div class="metadata">
         <div class="category-icon">
-            {% case page.category %}
+            {% case category %}
             {% when "link" %}
             <img src="/assets/icons/icons8-bookmark-48.png" alt="bookmark" srcset="/assets/icons/icons8-bookmark-48.png, /assets/icons/icons8-bookmark-96.png 2x">
             {% when "video" %}
@@ -23,9 +30,9 @@ layout: garden
     <div class="content">
         <h1>
             {% if page.link_title %}
-            {{ page.title }} (via <a href="{{ page.link }}">{{ page.link_title }}</a>)
+            {{ page.title }} (via <a href="{{ link }}">{{ page.link_title }}</a>)
             {% else %}
-            <a href="{{ page.link }}">{{ page.title }}</a>
+            <a href="{{ link }}">{{ page.title }}</a>
             {% endif %}
         </h1>
         {{ content }}
