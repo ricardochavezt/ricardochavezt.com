@@ -74,21 +74,62 @@ permalink: /garden
 
         <div class="stream-post-list">
             {% for post in site.posts %}
+            {% if post.categories contains "watched" %}
+            {% assign category="watched" %}
+            {% elsif post.categories contains "reads" %}
+            {% assign category="reads" %}
+            {% elsif post.categories contains "likes" %}
+            {% assign category="likes" %}
+            {% else %}
+            {% assign category="note" %}
+            {% endif %}
             <div class="stream-post-item">
-                <img src="/assets/icons/icons8-note-48.png" class="stream-post-icon" alt="note" srcset="/assets/icons/icons8-note-48.png, /assets/icons/icons8-note-96.png 2x">
-                <!-- <div class="stream-post-icon">📝</div> -->
+                <img src="/assets/icons/post-type-{{category}}.png" class="stream-post-icon" srcset="/assets/icons/post-type-{{category}}.png, /assets/icons/post-type-{{category}}-2x.png 2x">
                 <div class="stream-post-content">
-                    {% if post.show_title %}
-                    <h3>{{ post.title }}</h3>
-                    {% endif %}
-                    {% if post.show_excerpt_only %}
+                    {% case category %}
+                    {% when "watched" %}
+                    <p>Watched <a href="{{ post.watch_of.url }}">{{ post.watch_of.name }}</a>
+                        {% if post.rating %}
+                        {% assign rating = post.rating | to_integer %}
+                        {% for i in (1..rating) %}
+                        &#11088;
+                        {% endfor %}
+                        {% if post.rating contains ".5" %}
+                        &#189;
+                        {% endif %}
+                        {% endif %}
+                    </p>
                     {{ post.excerpt }}
-                    <p><a href="{{ site.baseurl }}{{ post.url }}" class="internal-link">Read more...</a></p>
+                    {% when "reads" %}
+                    <p>{{post.progress | capitalize}} reading <a href="{{post.read_of.url}}">{{post.read_of.name}}</a> by {{post.read_of.author}}
+                        {% if post.rating %}
+                        {% assign rating = post.rating | to_integer %}
+                        {% for i in (1..rating) %}
+                        &#11088;
+                        {% endfor %}
+                        {% if post.rating contains ".5" %}
+                        &#189;
+                        {% endif %}
+                        {% endif %}
+                    </p>
+                    {{ post.excerpt }}
+                    {% when "likes" %}
+                    <p>Liked <a href="{{post.like_of}}">{{post.title | default: post.like_of }}</a></p>
+                    {{ post.excerpt }}
                     {% else %}
-                    {{ post.content }}
-                    {% endif %}
+                        {% if post.show_title %}
+                    <h3>{{ post.title }}</h3>
+                        {% endif %}
+                        {% if post.show_excerpt_only %}
+                        {{ post.excerpt }}
+                    <p><a href="{{ site.baseurl }}{{ post.url }}" class="internal-link">Read more...</a></p>
+                        {% else %}
+                        {{ post.content }}
+                        {% endif %}
+                    {% endcase %}
                     <p class="metadata">
                         <time datetime="{{ page.date | date_to_xmlschema}}">Posted on {{ post.date | date: "%B %-d, %Y" }}</time>
+                        in {{ post.categories }}
                         {% unless post.tags == empty %}
                         |
                         {% for tag in post.tags %}
