@@ -80,6 +80,12 @@ permalink: /garden
             {% assign category="reads" %}
             {% elsif post.categories contains "likes" %}
             {% assign category="likes" %}
+            {% elsif post.categories contains "rsvps" %}
+            {% assign category="rsvps" %}
+            {% elsif post.categories contains "listened" %}
+            {% assign category="listened" %}
+            {% elsif post.categories contains "jams" %}
+            {% assign category="jams" %}
             {% else %}
             {% assign category="note" %}
             {% endif %}
@@ -115,6 +121,37 @@ permalink: /garden
                     {{ post.excerpt }}
                     {% when "likes" %}
                     <p>Liked <a href="{{post.like_of}}">{{post.title | default: post.like_of }}</a></p>
+                    {{ post.excerpt }}
+                    {% when "rsvps" %}
+                    <p>
+                        {% case post.rsvp %}
+                        {% when "yes", true %}
+                        Attending
+                        {% when "no", false %}
+                        Not attending
+                        {% when "maybe" %}
+                        Maybe going to
+                        {% when "interested" %}
+                        Interested in going to
+                        {% endcase %}
+                        <a href="{{post.in_reply_to}}">{{post.title | default: post.in_reply_to}}</a>
+                    </p>
+                    {{ post.excerpt }}
+                    {% when "listened" %}
+                    <p>Listened to <a href="{{post.listen_of.url}}">{{post.listen_of.name}}</a> by {{post.listen_of.author}}
+                        {% if post.rating %}
+                        {% assign rating = post.rating | to_integer %}
+                        {% for i in (1..rating) %}
+                        &#11088;
+                        {% endfor %}
+                        {% if post.rating contains ".5" %}
+                        &#189;
+                        {% endif %}
+                        {% endif %}
+                    </p>
+                    {{ post.excerpt }}
+                    {% when "jams" %}
+                    <p><a href="{{post.jam_of.url}}">{{post.jam_of.name}}</a> by {{post.jam_of.author}} is my current jam.</p>
                     {{ post.excerpt }}
                     {% else %}
                         {% if post.show_title %}
