@@ -94,7 +94,7 @@ permalink: /garden
                 <div class="stream-post-content">
                     {% case category %}
                     {% when "watched" %}
-                    <p>Watched <a href="{{ post.watch_of.url }}">{{ post.watch_of.name }}</a>
+                    <p>{% if post.rewatch.first %}(Re-){% endif %}Watched <a href="{{ post.watch_of.url }}">{{ post.watch_of.name }}</a>
                         {% if post.rating %}
                         {% assign rating = post.rating | to_integer %}
                         {% for i in (1..rating) %}
