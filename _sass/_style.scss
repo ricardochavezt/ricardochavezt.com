@@ -214,7 +214,8 @@ nav.garden-nav {
   }
 
   display: grid;
-  column-gap: 1.5em;
+  column-gap: 2.5em;
+  row-gap: 1em;
   grid-template-columns: 1fr;
   grid-template-areas:
   "tabs"
@@ -222,7 +223,7 @@ nav.garden-nav {
   "stream";
 
   @media (min-width: 700px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.75fr 1fr;
     grid-template-areas:
       "tabs tabs"
       "notes stream";
@@ -264,13 +265,15 @@ nav.garden-nav {
 
   .stream-post-item {
     border: 1px solid mix($color-subtext, white);
+    border-left-width: 4px;
+    border-left-color: mix($color-border, white, 75%);
     border-radius: $border-radius;
     padding: 0 0.5em;
     display: flex;
     align-items: flex-start;
     column-gap: 0.5em;
 
-    :first-child {
+    >:first-child {
       margin-top: 0.5em;
     }
 
@@ -283,6 +286,10 @@ nav.garden-nav {
       flex-grow: 1;
       font-size: 1rem;
 
+      img {
+        max-height: none;
+      }
+
       .stream-post-tag::before {
         content: "#";
       }
@@ -291,6 +298,12 @@ nav.garden-nav {
     .metadata {
       font-size: .75em;
       font-style: italic;
+    }
+  }
+
+  .stream-post-item.reposts {
+    blockquote {
+      font-size: 1em;
     }
   }
 }
