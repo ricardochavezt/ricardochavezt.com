@@ -7,6 +7,8 @@
     <h1><a href="{{ site.baseurl }}/garden" class="internal-link">The Garden</a>
     {% if page.collection == "open_tabs" %}
     <span style="font-weight: normal;">/</span> <a href="{{ site.baseurl }}/open_tabs" class="internal-link">Open Tabs</a>
+    {% elsif page.collection == "posts" %}
+    <span style="font-weight: normal;">/</span> <a href="{{ site.baseurl }}/posts" class="internal-link">Posts</a>
     {% endif %}
     {% endif %}
     </h1>

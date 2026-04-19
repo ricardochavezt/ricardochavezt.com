@@ -1,29 +1,21 @@
 <div class="stream-post-list">
     {% if page.id == "garden" %}
-    {% assign posts = site.posts | slice: 0, 15 %}
+        {% assign posts = site.posts | slice: 0, 10 %}
     {% else %}
-    {% assign posts = site.posts %}
+        {% assign posts = site.posts %}
     {% endif %}
     {% for post in posts %}
-    {% if post.categories contains "watched" %}
-    {% assign category="watched" %}
-    {% elsif post.categories contains "reads" %}
-    {% assign category="reads" %}
-    {% elsif post.categories contains "likes" %}
-    {% assign category="likes" %}
-    {% elsif post.categories contains "rsvps" %}
-    {% assign category="rsvps" %}
-    {% elsif post.categories contains "listened" %}
-    {% assign category="listened" %}
-    {% elsif post.categories contains "jams" %}
-    {% assign category="jams" %}
-    {% elsif post.categories contains "reposts" %}
-    {% assign category="reposts" %}
-    {% elsif post.categories contains "photos" %}
-    {% assign category="photos" %}
-    {% else %}
-    {% assign category="note" %}
-    {% endif %}
+        {% assign category="note" %}
+        {% for type in site.post_types %}
+            {% if post.categories contains type %}
+                {% if type ==  "notes" %}
+                    {% assign category="note" %}
+                {% else %}
+                    {% assign category=type %}
+                {% endif %}
+            {% break %}
+            {% endif %}
+        {% endfor %}
     <div class="stream-post-item {{category}}">
         <img src="/assets/icons/post-type-{{category}}.png" class="stream-post-icon" srcset="/assets/icons/post-type-{{category}}.png, /assets/icons/post-type-{{category}}-2x.png 2x">
         <div class="stream-post-content">
@@ -99,7 +91,7 @@
             <h3>{{ post.title }}</h3>
                 {% endif %}
             {% endcase %}
-            {% if page.id == "garden" and post.show_excerpt_only %}
+            {% if post.show_excerpt_only %}
             {{ post.excerpt }}
             <p><a href="{{ site.baseurl }}{{ post.url }}" class="internal-link">Read more...</a></p>
             {% else %}

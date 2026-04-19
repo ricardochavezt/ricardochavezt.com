@@ -207,6 +207,11 @@ nav.garden-nav {
 
   #garden-stream {
     grid-area: stream;
+
+    h2 .subtitle {
+      font-weight: normal;
+      font-size: 0.5em;
+    }
   }
 
   #garden-notes {
@@ -321,6 +326,11 @@ nav.garden-nav {
   @media (min-width: 700px) {
     max-width: 66%;
     margin: 0 auto;
+  }
+
+  h1 .subtitle {
+    font-weight: normal;
+    font-size: 0.5em;
   }
 
   .stream-post-list {
@@ -500,5 +510,50 @@ code {
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px;
     background-color: $color-box-background;
+  }
+}
+
+#post-container {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 0;
+
+  .category-icon > img {
+    margin-right: 0;
+    max-height: 2em;
+    padding: 0.5em;
+    border: 1px solid mix($color-subtext, white);
+    border-right: 0;
+    border-left-width: 4px;
+    border-left-color: mix($color-border, white, 75%);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    background-color: $color-box-background;
+  }
+
+  .post-content {
+    border-left: 1px solid #a6a6a6;
+    padding-left: 1em;
+
+    >:first-child, content:first-child > :first-child {
+      margin-top: 0.5em;
+    }
+
+    img {
+      max-width: 80%;
+      max-height: none;
+      margin: 0;
+    }
+  }
+
+  .metadata {
+    font-size: .8em;
+    font-style: italic;
+
+    .p-author {
+      display: none;
+    }
   }
 }

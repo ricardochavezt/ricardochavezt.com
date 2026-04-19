@@ -52,11 +52,30 @@ jekyll_compose:
     posts:
       category: "notes"
 
+post_types:
+- watched
+- reads
+- likes
+- rsvps
+- listened
+- jams
+- reposts
+- photos
+- notes
+
 defaults:
   - scope:
       path: "**/*"
     values:
       layout: "default"
+  - scope:
+      path: "**/_posts/**/*.md"
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      layout: "post"
   - scope:
       path: "_notes/**/*.md"
     values:
@@ -65,3 +84,4 @@ defaults:
       path: "_open_tabs/**/*.md"
     values:
       layout: "bookmark"
+      category: link
