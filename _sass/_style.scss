@@ -306,6 +306,34 @@ nav.garden-nav {
       font-size: 1em;
     }
   }
+
+  .stream-post-item.more {
+    border: none;
+    font-size: 1rem;
+    
+    >:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+#posts-layout {
+  @media (min-width: 700px) {
+    max-width: 66%;
+    margin: 0 auto;
+  }
+
+  .stream-post-list {
+    .stream-post-item {
+      padding-right: 1.5em;
+
+      img {
+        @media (min-width: 700px) {
+          max-width: 80%;
+        }
+      }
+    }
+  }
 }
 
 #garden-notes .garden-notes-list {
