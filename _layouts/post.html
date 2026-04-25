@@ -20,7 +20,8 @@ layout: garden
     <div class="post-content">
 {% case category %}
 {% when "watched" %}
-    <p class="p-name">{% if page.rewatch.first %}(Re-){% endif %}Watched <a href="{{ page.watch_of.url }}">{{ page.watch_of.name }}</a>
+    <p class="p-summary u-watch-of h-cite">
+        {% if page.rewatch.first %}(Re-){% endif %}Watched <a class="u-url" href="{{ page.watch_of.url }}"><span class="p-name">{{ page.watch_of.name }}</span></a>
         {% if page.rating %}
         {% assign rating = page.rating | to_integer %}
         {% for i in (1..rating) %}
@@ -32,7 +33,9 @@ layout: garden
         {% endif %}
     </p>
 {% when "reads" %}
-    <p class="p-name">{{page.progress | capitalize}} reading <a href="{{page.read_of.url}}">{{page.read_of.name}}</a> by {{page.read_of.author}}
+    <p class="p-summary u-read-of h-cite">{{page.progress | capitalize}} reading
+        <a class="u-url" href="{{page.read_of.url}}"><span class="p-name">{{page.read_of.name}}</span></a>
+        by <span class="p-author">{{page.read_of.author}}</span>
         {% if page.rating %}
         {% assign rating = page.rating | to_integer %}
         {% for i in (1..rating) %}
@@ -44,23 +47,34 @@ layout: garden
         {% endif %}
     </p>
 {% when "likes" %}
-    <p class="p-name">Liked <a href="{{page.like_of}}">{{page.title | default: page.like_of }}</a></p>
+    <p class="p-summary">Liked <a class="u-like-of" href="{{page.like_of}}">{{page.title | default: page.like_of }}</a></p>
 {% when "rsvps" %}
-    <p class="p-name">
-        {% case page.rsvp %}
-        {% when "yes", true %}
+    <p class="p-summary">
+        {% if page.rsvp == true %}
+        {% assign rsvp="yes" %}
+        {% elsif page.rsvp == false %}
+        {% assign rsvp="no" %}
+        {% else %}
+        {% assign rsvp=page.rsvp %}
+        {% endif %}
+        <data value="{{rsvp}}" class="p-rsvp">
+        {% case rsvp %}
+        {% when "yes" %}
         Attending
-        {% when "no", false %}
+        {% when "no" %}
         Not attending
         {% when "maybe" %}
         Maybe going to
         {% when "interested" %}
         Interested in going to
         {% endcase %}
-        <a href="{{page.in_reply_to}}">{{page.title | default: page.in_reply_to}}</a>
+        </data>
+        <a href="{{page.in_reply_to}}" class="u-in-reply-to">{{page.title | default: page.in_reply_to}}</a>
     </p>
 {% when "listened" %}
-    <p class="p-name">Listened to <a href="{{page.listen_of.url}}">{{page.listen_of.name}}</a> by {{page.listen_of.author}}
+    <p class="p-summary u-listen-of h-cite">Listened to
+        <a class="u-url" href="{{page.listen_of.url}}"><span class="p-name">{{page.listen_of.name}}</span></a>
+        by <span class="p-author">{{page.listen_of.author}}</span>
         {% if page.rating %}
         {% assign rating = page.rating | to_integer %}
         {% for i in (1..rating) %}
@@ -72,19 +86,19 @@ layout: garden
         {% endif %}
     </p>
 {% when "jams" %}
-    <p class="p-name"><a href="{{page.jam_of.url}}">{{page.jam_of.name}}</a> by {{page.jam_of.author}} is my current jam.</p>
+    <p class="p-summary"><a class="u-jam-of" href="{{page.jam_of.url}}">{{page.jam_of.name}}</a> by {{page.jam_of.author}} is my current jam.</p>
 {% when "reposts" %}
-    <p class="p-name">Reposted
+    <p class="h-cite u-repost-of">Reposted
         {% if page.repost_of.url and page.repost_of.name %}
-        <a href="{{page.repost_of.url}}">{{page.repost_of.name}}</a>:
+        <a class="u-url" href="{{page.repost_of.url}}">{{page.repost_of.name}}</a>:
         {% else %}
-        <a href="{{page.repost_of}}">{{page.repost_of}}</a>:
+        <a class="u-url" href="{{page.repost_of}}">{{page.repost_of}}</a>:
         {% endif %}
     </p>
 {% when "photos" %}
     <p class="p-name">Posted a photo:</p>
     <p>
-        <img src="{{page.photo.first.url}}" alt="{{page.photo.first.alt}}" />
+        <img class="u-photo" src="{{page.photo.first.url}}" alt="{{page.photo.first.alt}}" />
     </p>
 {% else %}
     {% if page.show_title %}
