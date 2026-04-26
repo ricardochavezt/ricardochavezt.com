@@ -9,7 +9,7 @@ layout: garden
 {% assign link = page.link %}
 {% assign category = page.category %}
 {% endif %}
-<article id="bookmark-entry-container">
+<div id="bookmark-entry-container" class="h-entry {{ category }}">
     <div class="metadata">
         <div class="category-icon">
             {% case category %}
@@ -27,14 +27,26 @@ layout: garden
             Posted on {{ page.created_time | date: "%B %-d, %Y" }}
         </time>
     </div>
-    <div class="content">
+    <div class="content{% if category=='quote' %} e-content{% endif %}">
+        {% if category!="quote" %}
         <h1>
             {% if page.link_title %}
-            {{ page.title }} (via <a href="{{ link }}">{{ page.link_title }}</a>)
+            {{ page.title }} (via <a class="u-bookmark-of h-cite" href="{{ link }}">{{ page.link_title }}</a>)
             {% else %}
-            <a href="{{ link }}">{{ page.title }}</a>
+            <a class="u-bookmark-of h-cite" href="{{ link }}">{{ page.title }}</a>
             {% endif %}
         </h1>
+        {% endif %}
         {{ content }}
+        {% if category=="quote" %}
+        <cite class="u-quotation-of h-cite">
+            &mdash;
+            {% if page.link_title %}
+            {{ page.title }} (via <a class="u-url" href="{{ link }}">{{ page.link_title }}</a>)
+            {% else %}
+            <a class="u-url" href="{{ link }}">{{ page.title }}</a>
+            {% endif %}
+        </cite>
+        {% endif %}
     </div>
-</article>
+</div>
