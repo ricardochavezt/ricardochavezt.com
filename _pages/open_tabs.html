@@ -12,7 +12,14 @@ permalink: /open_tabs
         {% for tab in tabs %}
         <div class="bookmark-list-item">
             <div class="bookmark-list-item-icon">
-                {% case tab.category %}
+                {% if tab.bookmark_of %}
+                {% assign link = tab.bookmark_of %}
+                {% assign category = "link" %}
+                {% else %}
+                {% assign link = tab.link %}
+                {% assign category=tab.category %}
+                {% endif %}
+                {% case category %}
                 {% when "link" %}
                 <img src="/assets/icons/icons8-bookmark-48.png" alt="bookmark" srcset="/assets/icons/icons8-bookmark-48.png, /assets/icons/icons8-bookmark-96.png 2x">
                 {% when "video" %}
@@ -23,9 +30,21 @@ permalink: /open_tabs
                 <img src="/assets/icons/icons8-link-48.png" alt="link" srcset="/assets/icons/icons8-link-48.png, /assets/icons/icons8-link-96.png 2x">
                 {% endcase %}
             </div>
-            <div class="bookmark-list-item-content">
-                <h2><a href="{{ tab.link }}">{{ tab.title }}</a></h2>
+            <div class="bookmark-list-item-content {{category}}">
+                {% if category!="quote" %}
+                <h2><a href="{{ link }}">{{ tab.title }}</a></h2>
+                {% endif %}
                 {{ tab.content }}
+                {% if category=="quote" %}
+                <cite class="u-quotation-of h-cite">
+                    &mdash;
+                    {% if tab.link_title %}
+                    {{ tab.title }} (via <a class="u-url" href="{{ link }}">{{ tab.link_title }}</a>)
+                    {% else %}
+                    <a class="u-url" href="{{ link }}">{{ tab.title }}</a>
+                    {% endif %}
+                </cite>
+                {% endif %}
                 <p class="metadata">
                     <time datetime="{{ tab.created_time | date_to_xmlschema }}">
                         Posted on {{ tab.created_time | date: "%B %-d, %Y" }}
