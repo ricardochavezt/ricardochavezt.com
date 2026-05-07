@@ -19,6 +19,7 @@ On the 'for' camp (as in, what has AI going for it):
 
 On the 'against' camp:
 - it threatens the livelihoods of artists (who sometimes already struggle to earn a living from their work)
+	- [this post](https://css-irl.info/stop-using-ai-generated-images/) in the blog [CSS In Real Life](https://css-irl.info/) explains it better
 	- it can be argued that not only artists' livelihoods are being threatened -- programmers (like yours truly) might find themselves on the same boat, with all these models that can now generate code
 - it is being unnecessarily pushed almost everywhere by people either jumping on the train to not get left behind or people trying to get a quick buck out if it
 	- Copilot on Microsoft Teams, anyone? I've lost count of the number of times I clicked on the "No" option to add it to the sidebar or so, and it keeps popping up. (I think in the end it just ignored me and lodged itself there anyways 😑)
@@ -68,6 +69,11 @@ Designer and educator Liz Danzico makes a very interesting point in a post in he
 - We seem to agree that these are only tools; where our opinions seem to diverge is in the capabilities of said tools. In this camp, I find myself agreeing more with what Austin Kleon argues (see the second of his cited blog posts above): since these tools produce output based on their training data, I don't think they can produce the innovative results that were produced with the music synthesizers once we realized we did not have to imitate already existing sounds. She argues that the "questions about _what to make and why_ have just moved upstream"; I think the _limitations_ might also have moved upstream.
 	- or maybe the _current iteration_ of these tools possess these limitations, and a next iteration won't be thus limited: [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) models can be configured to favor exploration of new possibilities over exploitation of paths known to be working -- maybe that's the way to go?
 - Danzico is also currently (March 2026) VP of Design at Microsoft AI, so that might be informing her point of view.
+
+Technologist, writer and activist [Anil Dash](https://www.anildash.com/) sees these tools as existential threats for open web technologies, and paints quite a grim picture in his post [Endgame for the Open Web](https://www.anildash.com/2026/03/27/endgame-open-web/).
+- The way I see it, open web technologies were built by humans, for humans -- as Dash points out, they have created opportunities and connected people in ways previously unimaginable -- and they have always worked in a sort of honor system -- he also points out that if search engines were allowed to crawl websites it was because, in exchange, they would lead users to those sites. But these new technologies (LLMs) have increased the capacity to extract benefits by a huge factor without giving anything in return -- most platforms that use LLMs have no links back to the original content -- and so, users that share their content openly are seeing higher costs without any benefit and are being forced to close off their previously openly shared content.
+	- which is why I prefer LLM online tools that do reference their sources and do [retrieval-augmented generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) for those questions that I find too complicated to ask to a search engine
+- I found out about this blog post in the [15/04/2026 Homebrew Website Club Europe/London meetup](https://indieweb.org/events/2026-04-15-hwc-europe), so shout out to them 🙌🏽.
 
 (-- FIN -- thanks for reading this far 😃)
 
