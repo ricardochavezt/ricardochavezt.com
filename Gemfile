@@ -14,4 +14,5 @@ group :jekyll_plugins do
     gem 'jekyll-fetch-notion'
     gem 'jekyll-compose'
     gem 'jekyll-cache-bust'
+    gem 'jekyll-webmention_io'
 end
