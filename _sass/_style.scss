@@ -408,6 +408,40 @@ nav.garden-nav {
     color: $color-border;
     background: change-color($color-border, $alpha: 0.125);
   }
+
+  side {
+    .webmentions {
+      font-size: 0.9em;
+
+      .webmentions__not-found {
+        font-style: italic;
+      }
+
+      .webmentions__list {
+        padding-inline-start: 2em;
+
+        .webmentions__item {
+          .webmention__author {
+            display: flex;
+            align-items: center;
+
+            .webmention__author__photo {
+              height: 2em;
+              margin: 0px 0.5em 0px 0px;
+            }
+          }
+
+          .webmention__content {
+            display: none;
+          }
+
+          .webmention__meta {
+            margin-top: 0.5em;
+          }
+        }
+      }
+    }
+  }
 }
 
 .backlink-box {

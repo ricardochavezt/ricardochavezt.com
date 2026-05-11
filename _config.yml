@@ -28,6 +28,7 @@ page_excerpts: true
 plugins:
   - jekyll-fetch-notion
   - jekyll-cache-bust
+  - jekyll-webmention_io
 
 sass:
   sass_dir:          _sass
@@ -85,3 +86,16 @@ defaults:
     values:
       layout: "bookmark"
       category: link
+
+webmentions:
+  username: www.ricardochavezt.com
+  collections:
+    - notes
+    - open_tabs
+  bad_uri_policy:
+    unsupported:
+      policy: ban
+    error:
+      policy: ignore
+    failure:
+      policy: retry
