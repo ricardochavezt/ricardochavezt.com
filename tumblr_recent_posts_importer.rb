@@ -4,10 +4,17 @@ require 'uri'
 require 'nokogiri'
 require 'reverse_markdown'
 require 'fileutils'
+require 'optparse'
 
 FileUtils.mkdir_p "_posts/tumblr"
+num_posts = 1
+OptionParser.new do |parser|
+    parser.on("-n", "--number [NUMBER]", Integer, "Number of posts requested") do |num|
+        num_posts = num
+    end
+end.parse!
 
-feed = URI.parse("https://ricardochavezt.tumblr.com/api/read/json/?num=1").open
+feed = URI.parse("https://ricardochavezt.tumblr.com/api/read/json/?num=#{num_posts}").open
 contents = feed.readlines.join("\n")
 blog = JekyllImport::Importers::Tumblr.extract_json(contents)
 blog["posts"].each do |post|
