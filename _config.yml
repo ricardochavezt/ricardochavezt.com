@@ -99,4 +99,4 @@ webmentions:
       policy: ignore
     failure:
       policy: retry
-  cache_folder: ../../webmention_cache
+  js: false
