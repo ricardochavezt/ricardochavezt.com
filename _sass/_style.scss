@@ -309,6 +309,19 @@ nav.garden-nav {
   .stream-post-item.reposts {
     blockquote {
       font-size: 1em;
+
+      > blockquote {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0.5em;
+        padding-right: 0;
+        border-left: 4px solid mix($color-subtext, white, 25%);
+        border-radius: 0;
+      }
     }
   }
 
