@@ -16,7 +16,7 @@ def extract_json(contents)
 end
 
 def html_to_markdown(content)
-    preserve = %w(table tr th td)
+    preserve = %w(table tr th td iframe)
     preserve.each do |tag|
         content.gsub!(%r!<#{tag}!i, "$$#{tag}")
         content.gsub!(%r!</#{tag}!i, "||#{tag}")
@@ -63,6 +63,10 @@ blog["posts"].each do |post|
     end
     # TODO post type / category
     write_post(post_hash, true)
+end
+
+File.open(".jekyll-cache/tumblr_last_imported", "w") do |f|
+    f.puts Time.now.iso8601
 end
 
 # puts blog["posts"][0]["type"]
