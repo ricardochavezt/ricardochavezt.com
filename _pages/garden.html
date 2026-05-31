@@ -36,7 +36,7 @@ permalink: /garden
                 </div>
                 <div class="bookmark-list-item-content {{bookmark.category}}">
                     {% if category == "quote" %}
-                    {{ bookmark.excerpt }}
+                    {{ bookmark.content }}
                     <cite>&mdash; 
                         {% if bookmark.link_title %}
                         {{ bookmark.title }} (via <a href="{{ link }}">{{ bookmark.link_title }}</a>)
@@ -44,11 +44,32 @@ permalink: /garden
                         <a href="{{ link }}">{{ bookmark.title }}</a>
                         {% endif %}
                     </cite>
+                    <p class="metadata">
+                        <time datetime="{{ bookmark.created_time | date_to_xmlschema }}">
+                            Posted on {{ bookmark.created_time | date: "%B %-d, %Y" }}
+                            | <a href="{{ bookmark.url }}" class="internal-link" >Permalink</a>
+                        </time>
+                    </p>
                     {% else %}
                     <h3><a href="{{ link }}">{{ bookmark.title }}</a></h3>
-                    {{ bookmark.excerpt }}
+                        {% if bookmark.show_excerpt_only %}
+                        {{ bookmark.excerpt }}
+                        <p><a href="{{ site.baseurl }}{{ bookmark.url }}" class="internal-link" >Read more...</a></p>
+                        <p class="metadata">
+                            <time datetime="{{ bookmark.created_time | date_to_xmlschema }}">
+                                Posted on {{ bookmark.created_time | date: "%B %-d, %Y" }}
+                            </time>
+                        </p>
+                        {% else %}
+                        {{ bookmark.content }}
+                        <p class="metadata">
+                            <time datetime="{{ bookmark.created_time | date_to_xmlschema }}">
+                                Posted on {{ bookmark.created_time | date: "%B %-d, %Y" }}
+                                | <a href="{{ bookmark.url }}" class="internal-link" >Permalink</a>
+                            </time>
+                        </p>
+                        {% endif %}
                     {% endif %}
-                    <p><a href="{{ site.baseurl }}{{ bookmark.url }}" class="internal-link" >Read more...</a></p>
                 </div>
             </div>
             {% endfor %}
