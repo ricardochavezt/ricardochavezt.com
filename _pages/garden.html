@@ -97,7 +97,7 @@ permalink: /garden
 
         <div class="garden-notes-list">
             {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-            {% for note in recent_notes limit: 5 %}
+            {% for note in recent_notes %}
             <div class="garden-notes-item">
                 <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">
                     <h3>{{ note.title }}</h3>
