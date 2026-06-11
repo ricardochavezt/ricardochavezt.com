@@ -28,6 +28,11 @@ footer {
   font-size: 0.8em;
   color: mix($color-text, white, 80%);
   padding-top: 1em;
+
+  @media (min-width: 700px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 img {
@@ -631,5 +636,14 @@ code {
     .p-author {
       display: none;
     }
+  }
+}
+
+#webrings {
+  .previous::after {
+    content: "";
+  }
+  .next::after {
+    content: "";
   }
 }
