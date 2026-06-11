@@ -23,6 +23,8 @@ Done:
 	- comes for free with the template for the notes on the Garden, might implement something else for external links
 - Add [Webmention](https://indieweb.org/Webmention) support to your personal website so you can receive notifications when people whose sites support Webmention (like this one!) link to or write a post in response to a blog post on your website.
 	- 10/05/26: done! my Webmention sending is just me doing HTTP POSTs with [httpie](https://httpie.io/) 😁, but I should also be able to receive them now thanks to [webmention.io](https://webmention.io/). (Still working on showing them on the pages tho)
+- Join a [webring](https://indieweb.org/webring).
+	- As of the date of last update of this page, I have joined the [IndieWeb Webring](https://xn--sr8hvo.ws/)
 
 To do next:
 
@@ -63,7 +65,6 @@ Someday / Maybe:
 - Make a table of contents for a long article you have written.
 - Create a mascot for your website.
 - Add an 88x31 button to your website.
-- Join a [webring](https://indieweb.org/webring).
 - Add a [print stylesheet](https://petermolnar.net/article/how-to-make-a-print-css/).
 - Create a scavenger hunt where people need to hunt through pages to find clues.
 - Write a quiz to share with your friends.
