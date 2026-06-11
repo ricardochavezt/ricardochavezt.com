@@ -13,4 +13,14 @@ I don't think one is better than the other -- both cover different use cases, re
 
 (A more detailed list of pros and cons is left ~~as an exercise for the reader~~ for a later time ;) )
 
+Seems I'm not the only one that thinks this way. From <https://activitypub.ghost.org/>:
+
+> We had it pretty good for a while, back there. The early days of the web were chaotic, free, and open. Everyone published unique content on their own domain. No two sites looked the same. We interacted with one another to share ideas.
+> 
+> Then the social networks came. They removed the complexity of running a server. They added simple social interactions. Follow. Like. Reply. Everything got easier.
+> 
+> But convenience came at a cost, and slowly the way we consumed information became less like home cooking and more like McDonalds.
+
+Granted, it's more to support their point of implementing federation through [ActivityPub](https://activitypub.rocks/), but that doesn't make it less true.
+
 [^1]: Or, really, on a space that is your own, instead of on a social networking site
