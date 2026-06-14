@@ -434,40 +434,6 @@ nav.garden-nav {
     background: change-color($color-border, $alpha: 0.125);
   }
 
-  side {
-    .webmentions {
-      font-size: 0.9em;
-
-      .webmentions__not-found {
-        font-style: italic;
-      }
-
-      .webmentions__list {
-        padding-inline-start: 2em;
-
-        .webmentions__item {
-          .webmention__author {
-            display: flex;
-            align-items: center;
-
-            .webmention__author__photo {
-              height: 2em;
-              margin: 0px 0.5em 0px 0px;
-            }
-          }
-
-          .webmention__content {
-            display: none;
-          }
-
-          .webmention__meta {
-            margin-top: 0.5em;
-          }
-        }
-      }
-    }
-  }
-
   .footnotes {
     border-top: 1px dashed $color-subtext;
   }
@@ -534,7 +500,7 @@ code {
 
 #bookmark-entry-container {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 100px 4fr 1fr;
   gap: 0;
   
   .metadata {
@@ -543,18 +509,23 @@ code {
     flex-direction: column;
     gap: 0.5em;
 
-    time {
+    time, .permalink {
       font-size: 0.75em;
       font-style: italic;
       color: $color-subtext;
       text-align: right;
       padding-right: 1em;
     }
+
+    p.permalink {
+      margin: 0;
+    }
   }
 
   .content {
     border-left: 1px solid #a6a6a6;
     padding-left: 1em;
+    padding-right: 1em;
 
     h1 {
       font-size: 1.5em;
@@ -582,6 +553,10 @@ code {
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px;
     background-color: $color-box-background;
+  }
+
+  .webmentions-container {
+    margin-top: 1em;
   }
 }
 
@@ -635,6 +610,38 @@ code {
 
     .p-author {
       display: none;
+    }
+  }
+}
+
+.webmentions {
+  font-size: 0.9em;
+
+  .webmentions__not-found {
+    font-style: italic;
+  }
+
+  .webmentions__list {
+    padding-inline-start: 2em;
+
+    .webmentions__item {
+      .webmention__author {
+        display: flex;
+        align-items: center;
+
+        .webmention__author__photo {
+          height: 2em;
+          margin: 0px 0.5em 0px 0px;
+        }
+      }
+
+      .webmention__content {
+        display: none;
+      }
+
+      .webmention__meta {
+        margin-top: 0.5em;
+      }
     }
   }
 }
