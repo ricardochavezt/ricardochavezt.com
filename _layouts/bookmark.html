@@ -26,6 +26,7 @@ layout: garden
         <time datetime="{{ page.created_time | date_to_xmlschema }}">
             Posted on {{ page.created_time | date: "%B %-d, %Y" }}
         </time>
+        <p class="permalink"><a href="{{ site.baseurl }}{{ page.url }}" class="u-url internal-link">Permalink</a></p>
     </div>
     <div class="content{% if category=='quote' %} e-content{% endif %}">
         {% if category!="quote" %}
@@ -48,5 +49,9 @@ layout: garden
             {% endif %}
         </cite>
         {% endif %}
+    </div>
+    <div class="webmentions-container">
+        <p><strong>Mentions elsewhere:</strong></p>
+        {% webmentions page.url %}
     </div>
 </div>

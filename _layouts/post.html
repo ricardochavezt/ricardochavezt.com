@@ -116,5 +116,7 @@ layout: garden
         <a href="{{ site.baseurl }}{{ page.url }}" class="u-url internal-link">Permalink</a>
         <a href="/" class="p-author h-card" rel="author">{{ site.author }}</a>
     </div>
+        <p><strong>Mentions elsewhere:</strong></p>
+        {% webmentions page.url %}
     </div>
 </div>
