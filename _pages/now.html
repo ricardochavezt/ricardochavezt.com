@@ -1,0 +1,21 @@
+---
+layout: page
+title: Now
+permalink: /now
+---
+
+<h2>What I'm doing now</h2>
+
+{% assign posts = site.posts | where_exp:"post", "post.tags contains 'now'" %}
+
+<em>Last updated {{ posts[0].date | date_to_long_string: "ordinal", "US" }}</em>
+
+{{ posts[0].content }}
+
+<h3>Previously...</h3>
+
+<ul>
+{% for post in posts offset: 1 %}
+  <li style="line-height: 2em;"><a href="{{post.url}}" class="internal-link">{{ post.date | date:"%b %Y"}}</a></li>
+{% endfor %}
+</ul>

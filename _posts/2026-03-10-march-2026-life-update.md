@@ -6,7 +6,6 @@ category: notes
 tags: now
 show_title: true
 show_excerpt_only: true
-published: false
 ---
 
 📖 Read: [The Midnight Library](https://www.matthaig.com/books/midnight-library/), by Matt Haig  
