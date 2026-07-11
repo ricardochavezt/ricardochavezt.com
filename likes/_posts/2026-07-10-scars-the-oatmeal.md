@@ -11,3 +11,5 @@ references:
     featured: https://s3.amazonaws.com/theoatmeal-img/thumbnails/oracle_scars_big.png
     publication: The Oatmeal
 ---
+
+![](https://s3.amazonaws.com/theoatmeal-img/comics/oracle_scars/oracle_scars.png)
