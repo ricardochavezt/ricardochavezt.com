@@ -13,3 +13,5 @@ references:
 ---
 
 "I'm a realist, but since I'm from Latin America my realism is magical"
+
+> ![](assets/745235767_18325151404285350_5299369399649826657_n.jpg)
