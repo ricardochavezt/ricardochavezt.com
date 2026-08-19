@@ -2,7 +2,7 @@
 title: AI - the software engineer vs. the artist
 excerpt: <p>My thoughts on the recent wave of generative AI advancements, both as a software engineer and as a person deeply interested in creativity</p>
 ---
-(**Note**: this has been written to participate in the [IndieWeb Blog Carnival of February 2026](https://zacharykai.net/notes/icfeb26), whose topic is "Intersecting Interests". But since this note is part of a digital garden (see [[About this garden]]), it might evolve over time. I can promise that, as of the end of February 2026, it is complete enough to be publicly posted, mainly because I would feel bed about submitting just a bunch of links and bullet points to the Blog Carnival 😅)
+(**Note**: this has been written to participate in the [IndieWeb Blog Carnival of February 2026](https://zacharykai.net/notes/icfeb26), whose topic is "Intersecting Interests". But since this note is part of a digital garden (see [[About this garden]]), it might evolve over time. I can promise that, as of the end of February 2026, it is complete enough to be publicly posted, mainly because I would feel bad about submitting just a bunch of links and bullet points to the Blog Carnival 😅)
 
 I'd like to gather my thoughts on the recent wave of developments in generative AI because I find myself in this very weird place:
 - On one hand, I'm a software engineer _and_ a few years ago I completed a masters which covered the topics of AI and data science, so I have some technical knowledge of the inner workings or generative AI and a fascination with the technology from a technical / academical point of view
