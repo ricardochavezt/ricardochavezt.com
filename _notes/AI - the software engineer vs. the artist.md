@@ -76,6 +76,18 @@ Technologist, writer and activist [Anil Dash](https://www.anildash.com/) sees th
 	- which is why I prefer LLM online tools that do reference their sources and do [retrieval-augmented generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) for those questions that I find too complicated to ask to a search engine
 - I found out about this blog post in the [15/04/2026 Homebrew Website Club Europe/London meetup](https://indieweb.org/events/2026-04-15-hwc-europe), so shout out to them 🙌🏽.
 
+Nolen Royalty of [eieio.games](https://eieio.games/blog/legibility-of-effort/) makes a very good point talking about [legibility of effort](https://eieio.games/blog/legibility-of-effort/): "the ability to tell at a glance whether something took a human meaningful work.":
+
+> Until recently, “someone cared enough to write this” was an ok heuristic. Plenty of writing on the internet was bad, but you could convince me that you _cared_ about something just by writing it down.
+
+> Of course, generating plausible-looking text - or a plausible-looking website - is trivial now.
+ 
+> For me, this means it’s harder to find good stuff worth engaging with online. And on a larger scale, systems built on easily gauging effort at a glance are falling apart.
+
+He goes on to explain the sad case of many open-source projects that had to close the doors on external contributions due to the excessive amount of them that were generated using code LLMs and then submitted without even being reviewed.
+- to me, this makes no damn sense: the whole point of a contribution to an open-source project is not in the output, but in the _process_ and in the things you learn by making the contribution _yourself_ -- including the countless mistakes you are bound to make when you first start (like with all other creative endeavors)
+
+
 (-- FIN -- thanks for reading this far 😃)
 
 [^1]: Or so the Internet tells me 😁
