@@ -11,3 +11,7 @@ references:
     featured: https://scontent.cdninstagram.com/v/t51.82787-15/801580884_18019172117921869_8760956484824720052_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=D13uqbzTN58Q7kNvwFyAKaU&_nc_oc=AdqwViOm-GvpszVixFUrEc-W9HIxgCYL1VX201izrko2G-MyrlNJitv5MVpLsG7J84E&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=XNlUIA6SUfK48dRZecQJKA&_nc_ss=7f689&oh=00_AQLVV0XCUjm_BxlrwsP2B8y38TRkIeO5EKKGbLCZqXLLKw&oe=6AB470A5
     publication: Instagram
 ---
+
+The story behind the design of this guy (in Spanish):
+
+![](https://scontent.cdninstagram.com/v/t51.82787-15/801580884_18019172117921869_8760956484824720052_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=D13uqbzTN58Q7kNvwFyAKaU&_nc_oc=AdqwViOm-GvpszVixFUrEc-W9HIxgCYL1VX201izrko2G-MyrlNJitv5MVpLsG7J84E&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=XNlUIA6SUfK48dRZecQJKA&_nc_ss=7f689&oh=00_AQLVV0XCUjm_BxlrwsP2B8y38TRkIeO5EKKGbLCZqXLLKw&oe=6AB470A5)

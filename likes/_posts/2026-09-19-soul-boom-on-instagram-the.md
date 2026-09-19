@@ -20,3 +20,5 @@ references:
     featured: https://scontent.cdninstagram.com/v/t51.82787-15/807084211_18068832188770862_6518715128959177942_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=fQJp_9YH98oQ7kNvwFHxGwn&_nc_oc=AdodAE7FBTNH7cyCXlyZ2pEvCnLse-kuqkLIMdC3lWoa-x6gghjoLDIboOSCULh8W0w&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=7S0vgvUiw0DBi24gtu4byw&_nc_ss=7f689&oh=00_AQKVwZZbiSsoN_b3RPq6BvsCb1ZWt7XcuF43eTJIgrDLHg&oe=6AB4865F
     publication: Instagram
 ---
+
+How one of the most popular songs by an ex-Beatle (and probably my favorite one) came to be

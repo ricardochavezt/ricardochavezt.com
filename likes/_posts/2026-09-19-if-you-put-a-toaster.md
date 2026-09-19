@@ -9,3 +9,5 @@ references:
     name: " - YouTube"
     summary: Auf YouTube findest du die angesagtesten Videos und Tracks. Außerdem kannst du eigene Inhalte hochladen und mit Freunden oder gleich der ganzen Welt teilen.
 ---
+
+everyone is hung up on "To a toaster, all weather is cold." but I'm laughing at "that's not how you make an ice cream sandwich" 😆
