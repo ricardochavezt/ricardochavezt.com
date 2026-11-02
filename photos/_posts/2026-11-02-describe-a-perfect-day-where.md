@@ -7,5 +7,4 @@ photo:
 uid: 01a19c01-6f90-776f-bc44-96c86d4f58c0
 ---
 
-(From [Typewriter interview with Edward Steed
- - Austin Kleon](https://austinkleon.substack.com/p/typewriter-interview-with-edward))
+(From [Typewriter interview with Edward Steed - Austin Kleon](https://austinkleon.substack.com/p/typewriter-interview-with-edward))
