@@ -1,0 +1,9 @@
+---
+title: on playing to the audience
+---
+One day I'll get tags working properly on this site xD. In the meantime, here's what some creative voices have to say about playing to please the audience:
+
+- American writer Lorrie Moore advises young people to ["do something weird"](https://channel.louisiana.dk/video/lorrie-mooreadvice-to-the-young) and to "move beyond the desire to please teachers and meet academic expectations, arguing that original writing requires a willingness to experiment and take risks"
+- The late and great David Bowie [thinks](https://www.instagram.com/reel/De2I-HxzvwE/?srtk=dTBpcnU0MTcwNDZp) it's "terribly dangerous for an artist to fulfill other people's expectations. I think they generally produce their worst work when they do that". And that's because of what he thinks is the reason artists start working, and something an artist should also remember: that "there was something inside yourself that you felt that if you could manifest it in some way, you would understand more about yourself and how you coexist with the rest of society."
+- Singer and illustrious daughter of Iceland Björk [says](https://www.instagram.com/p/Dd25dUdDhlX/?exln=NG5vZXBiaWZ3cGFh&img_index=1): "The minute I need to start pleasing five people, I won't please anyone. But if I only please myself, I might please ten people. (...) Every time I start to think about what people think of my music, I start to lose the plot.". An apparent contradiction: the more selfish you are, the more generous you are.
+	- This I have seen somewhere else: you don't play (or create art) to please your people, you do it to _find_ your people.
